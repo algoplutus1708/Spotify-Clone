@@ -6,6 +6,13 @@
     --white: #fff;
   }
   
+    /* Changing The Style Of Anchor Tags */
+    a{
+      color: var(--white);
+      text-decoration:none;
+    }
+    
+  
   body,html{
      background-color: var(--black); /* Used Root Variables */
      color: var(--white);
@@ -16,13 +23,6 @@
      flex-direction: column;
      margin: 0rem;
   }
-
-  /* Changing The Style Of Anchor Tags */
-  a{
-    color: var(--white);
-    text-decoration:none;
-  }
-  
   .container{
     display:flex;
     flex: 1;
