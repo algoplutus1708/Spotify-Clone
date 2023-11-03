@@ -1,3 +1,5 @@
+/* Code By algoplutus, ur mom's secret fantasy!! */
+
 /* Root Variables */
 :root {
     --black: #000;
@@ -6,11 +8,11 @@
     --white: #fff;
   }
   
-    /* Changing The Style Of Anchor Tags */
-    a{
+  /* Changing The Style Of Anchor Tags */
+  a{
       color: var(--white);
       text-decoration:none;
-    }
+  }
     
   
   body,html{
@@ -25,26 +27,68 @@
   }
   .container{
     display:flex;
+    gap:0.5rem; /* 1rem=16px */
     flex: 1;
     overflow: hidden;
     background-color: var(--black);
     padding: 0.5rem;
   }
 
-  .main-content{
-    flex:0.8;
-    overflow: auto;
-    /* background-color: blue; */
-  }
   .sidebar{
     order:-1;
     flex:0.25;
-    background-color: deeppink;
+    background-color: var(--black);
+    border-radius:0.5rem;
+    display: flex; 
+    flex-direction:column;
+  }
+ .top-icons{
+  background-color: var(--grey);
+  margin-bottom:0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius:0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap:1.5rem;
+ }
+ .link-flex{
+  display: flex;
+  justify-content: flex-start;
+  gap:1rem;
+  align-items: center;
+  opacity: 0.7;
+  font-weight: 600;
+  font-size: 0.8rem;
+  cursor: pointer;
+ }
+ .link-flex:hover{
+  opacity:1;
+  transition: all 0.3s; /* We are using animation here */
+ }
+ .link-flex>img{
+  height: 1.2rem;
+  width: 1.2rem;
+ }
+ /* .link-flex>p{
+  font-size: 1rem;
+  color: var(--white);
+ } */
+
+ .library{
+  background-color: var(--grey);
+ }
+
+  .main-content{
+    flex:0.8;
+    overflow: auto;
+    background-color: var(--grey);
+    border-radius:0.5rem;
   }
   .player{
     position:fixed;
     height: 80px;
     width: 100%;
     bottom: 0;
-    background-color: purple;
+    left:0;
+    background-color: var(--black);
   }
