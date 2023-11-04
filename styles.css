@@ -77,6 +77,43 @@
  .library{
   background-color: var(--grey);
   padding:1rem 1.5rem;
+  border-radius: 0.5rem;
+  overflow-y: auto; /*Make the Y direction only scrollable*/
+  height: 90vh;
+ }
+ .flex-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+ }
+ .flex-top>img{
+  height:1rem;
+  width:1rem;
+  margin-top:0.5rem;
+  opacity:0.8;
+ }
+ .flex-top>p{
+  font-size: 0.8rem;
+  opacity:0.8;
+ }
+ .flex-top>img:hover{
+  opacity: 1;
+  transition: all 0.3s;
+ }
+ .flex-top>p:hover{
+  opacity: 1;
+  transition: all 0.3s;
+ }
+ .chip{
+  margin-top:0,5rem;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--light-grey);
+  border-radius: 5rem;
+  width:fit-content;
+  font-weight: normal;
+  color: var(--white);
  }
 
   .main-content{
