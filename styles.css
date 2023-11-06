@@ -127,6 +127,7 @@
  }
  .albums{
   margin-top: 1rem;
+  overflow-y: auto; /*Make the Y direction only scrollable*/
  }
  .album-cover{
   height: 3rem !important;
