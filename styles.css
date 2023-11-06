@@ -115,6 +115,34 @@
   font-weight: normal;
   color: var(--white);
  }
+ .album-flex{
+  margin-bottom: 1rem;
+  height:3rem;
+  padding: 0.5rem 0rem;
+  border-radius: 0.5rem;
+ }
+ .album-flex:hover{
+  background-color: #1a1a1a;
+  transition: all 0.3s;
+ }
+ .albums{
+  margin-top: 1rem;
+ }
+ .album-cover{
+  height: 3rem !important;
+  width: 3rem !important;
+  border-radius: 0.2rem;
+ }
+ .col-flex>p{
+  margin: 0;
+  font-weight: normal;
+  font-size: 0.8rem !important;
+ }
+ .album-name{
+  color: var(--white);
+  margin-bottom: 0.35rem !important;
+  font-size: 1rem !important;
+ }
 
   .main-content{
     flex:0.8;
