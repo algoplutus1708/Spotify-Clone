@@ -1,6 +1,5 @@
-# Spotify-Clone
+# [Spotify-Clone](https://algoplutus1708.github.io/Spotify-Clone/)
 
-##[Link](https://algoplutus1708.github.io/Spotify-Clone/)
 
 Welcome to the Spotify Clone project! This project is a music streaming application that replicates the popular Spotify platform, allowing users to listen to their favorite music, create playlists, and explore a vast library of songs. Whether you're a music enthusiast or a developer looking to learn more about building music streaming apps, this project has something for everyone.
 
